@@ -45,6 +45,8 @@ class Set:
     def add(self,elem): 
         self.data.append(elem)
     def remove(self,elem):
+        if elem not in self.data:
+            raise(KeyError)
         self.data.remove(elem)
     def intersection_update(self,other):
         self.data = (self&other).data
