@@ -1,5 +1,5 @@
 import pytest
-from PA5 import Hands, Ranking, PKCard
+from PA5_2 import Hands, Ranking, PKCard
 import random
 
 non_flush_suit = 'CHSDS'
